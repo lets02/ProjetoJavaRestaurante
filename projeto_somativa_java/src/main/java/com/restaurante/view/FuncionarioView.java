@@ -45,9 +45,7 @@ public class FuncionarioView extends JFrame {
         // Ação para estoque
         estoqueButton.addActionListener(e -> {
             // Lógica para gerenciar o estoque
-            JOptionPane.showMessageDialog(this, "Abrindo tela de gerenciamento de estoque...", "Estoque", JOptionPane.INFORMATION_MESSAGE);
-            // Aqui você pode abrir uma nova tela para gerenciar o estoque
-            // new EstoqueView().setVisible(true);
+            new EstoqueView().setVisible(true); // Abre a tela de gerenciamento de estoque
         });
 
         // Ação de logout
